@@ -1,5 +1,9 @@
 {
   "enabledManagers": [
     "deps-edn"
-  ]
+  ],
+  "packageRules": [{
+    "packageNames": ["org.clojure:clojurescript"],
+    "allowedVersions": "<1000"
+  }]
 }
