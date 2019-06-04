@@ -4,6 +4,6 @@
   ],
   "packageRules": [{
     "packageNames": ["org.clojure:clojurescript"],
-    "allowedVersions": "<1000"
+    "allowedVersions": ">=1"
   }]
 }
